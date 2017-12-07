@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+      "koa": "^2.4.1"
+    },
+    "name": "flow",
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-eslint": "^8.0.2",
+      "babel-preset-flow": "^6.23.0",
+      "eslint": "^4.11.0",
+      "eslint-plugin-flowtype": "^2.39.1",
+      "eslint-plugin-react": "^7.5.1",
+      "flow-bin": "^0.59.0"
+    },
+    "scripts": {
+      "start": "babel index.js",
+      "eslint": "./node_modules/.bin/eslint"
+    }
+  }
